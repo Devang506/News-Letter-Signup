@@ -46,7 +46,7 @@ app.post("/",function(req,res){
      res.sendFile(__dirname+"/faliure.html");
    }
   })
-   // request.write(jsonData);
+  request.write(jsonData);
   request.end();
 
 });
